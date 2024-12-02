@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+
+    <!-- Top Header -->
+
+    <!-- Top Header -->
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="547dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="605dp"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <!-- Profile Picture -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="195dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_picture_icon" />
+
+    <!-- Account Title -->
+
+    <!-- First Rounded TextView -->
+    <TextView
+        android:id="@+id/txt_Account"
+        android:layout_width="231dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="628dp"
+        android:text="Account"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_FullName"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounded_rectangle_notifications"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Second Rounded TextView -->
+
+    <TextView
+        android:id="@+id/txt_Email"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/rounded_rectangle_notifications"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTxt_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="127dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_FullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="222dp"
+        android:ems="10"
+        android:hint="Full Name..."
+        android:inputType="text"
+        android:minHeight="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
