@@ -5,4 +5,16 @@
     <color name="button_background">#F5F5F5</color>
     <color name="button_text">#828282</color>
     <color name="border_color">#828282</color>
+    <!-- LIGHT THEME -->
+    <color name="my_light_primary">#6200EE</color>
+    <color name="my_light_on_primary">#FFFFFF</color>
+    <color name="my_light_background">#FFFFFF</color>
+    <color name="my_light_surface">#F5F5F5</color>
+    <color name="my_light_on_surface">#000000</color>
+    <!-- DARK THEME -->
+    <color name="my_dark_primary">#BB86FC</color>
+    <color name="my_dark_on_primary">#000000</color>
+    <color name="my_dark_background">#121212</color>
+    <color name="my_dark_surface">#1E1E1E</color>
+    <color name="my_dark_on_surface">#FFFFFF</color>
 </resources>
