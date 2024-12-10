@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android/tools"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TextView at the top -->
+
+    <!-- Settings Title -->
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="547dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="605dp"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <TextView
+        android:id="@+id/txt_Settings"
+        android:layout_width="231dp"
+        android:layout_height="86dp"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <!-- Original Button -->
+    <Button
+        android:id="@+id/btn_Notifications"
+        android:layout_width="228dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="388dp"
+        android:backgroundTint="@color/button_background"
+        android:text="Notifications"
+        android:textColor="@color/button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <!-- Duplicated Button 1 -->
+    <Button
+        android:id="@+id/btn_Account"
+        android:layout_width="228dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="263dp"
+        android:backgroundTint="@color/button_background"
+        android:text="Account"
+        android:textColor="@color/button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <!-- Duplicated Button 2 -->
+
+    <!-- Newly Added Button -->
+    <Button
+        android:id="@+id/btn_Appearance"
+        android:layout_width="228dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="502dp"
+        android:backgroundTint="@color/button_background"
+        android:text="Appearance"
+        android:textColor="@color/button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <Button
+        android:id="@+id/btn_AboutBinBuddy"
+        android:layout_width="228dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/button_background"
+        android:text="About Bin Buddy"
+        android:textColor="@color/button_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
